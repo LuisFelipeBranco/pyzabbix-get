@@ -13,7 +13,7 @@ def host_get():
             "output": ["name"]
         },
         "jsonrpc": "2.0",
-        "auth": "3fa4ee58ecca428ee97488067960f648",
+        "auth": "YYYYYY",
         "id": "1"
     }
 
@@ -31,7 +31,7 @@ def list_get():
                 ]
         },
         "jsonrpc": "2.0",
-        "auth": "3fa4ee58ecca428ee97488067960f648",
+        "auth": "YYYYYY",
         "id": 1}
     data = json.dumps(data).encode()
     list_item = requests.post(url=url, data=data, headers=header, verify=False)
@@ -44,7 +44,7 @@ def group_get():
             "sortorder": "groupid"
         },
         "jsonrpc": "2.0",
-        "auth": "fbb8ae26d69fa2cd2733af3a23bc6631",
+        "auth": "YYYYYY",
         "id": 1
 }
     data = json.dumps(data).encode()
